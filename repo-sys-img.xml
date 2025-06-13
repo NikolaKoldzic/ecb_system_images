@@ -8,7 +8,6 @@
 <remotePackage path="system-images;android-34-ext9;bosch-android-automotive;x86_64">
     <type-details xsi:type="sys-img:sysImgDetailsType">
         <api-level>34</api-level>
-        <extension-level>9</extension-level>
         <tag>
             <id>android-automotive</id>
             <display>Android Automotive-ECB</display>
