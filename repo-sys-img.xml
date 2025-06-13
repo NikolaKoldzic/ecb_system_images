@@ -5,16 +5,12 @@
     Your Bosch license text here...
 </license>
 
-<remotePackage path="system-images;android-34;bosch-android-automotive;x86_64">
+<remotePackage path="system-images;android-34;android-automotive;x86_64">
     <type-details xsi:type="sys-img:sysImgDetailsType">
         <api-level>34</api-level>
         <tag>
             <id>android-automotive</id>
             <display>Android Automotive-ECB</display>
-        </tag>
-        <tag>
-            <id>bosch</id>
-            <display>Bosch</display>
         </tag>
         <vendor>
             <id>bosch</id>
@@ -35,9 +31,9 @@
     <archives>
         <archive>
             <complete>
-                <size>817455797</size>
-                <checksum>40cef27f5388c7a3934e096f2cc170b8f2887303</checksum>
-                <url>https://bosch-my.sharepoint.com/personal/kno1bg_bosch_com/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fkno1bg%5Fbosch%5Fcom%2FDocuments%2Fsdk%2Drepo%2Dlinux%2Dsystem%2Dimages%2Deng%2Ekno1bg%2Ezip</url>
+                <size>817455771</size>
+                <checksum>b6f5aa2b50d225e3216c3d870d4d365d7d0a04be</checksum>
+                <url>https://bosch-my.sharepoint.com/:u:/r/personal/kno1bg_bosch_com/Documents/sdk-repo-linux-system-images-eng.kno1bg.zip?csf=1&web=1&e=uc10NF</url>
             </complete>
         </archive>
     </archives>
