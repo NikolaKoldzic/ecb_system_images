@@ -5,7 +5,7 @@
     Your Bosch license text here...
 </license>
 
-<remotePackage path="system-images;android-34-ecb;android-automotive;x86_64">
+<remotePackage path="system-images;android-34-ext9;bosch-android-automotive;x86_64">
     <type-details xsi:type="sys-img:sysImgDetailsType">
         <api-level>34</api-level>
         <tag>
@@ -33,7 +33,7 @@
             <complete>
                 <size>817455807</size>
                 <checksum>aaee48ed364f67670148530f86fa6d2ffa25a3c6</checksum>
-                <url>https://bosch-my.sharepoint.com/:u:/p/kno1bg/EcxK1o_-cXRCikvRlLLZYk0Bn5xTR2IIf3Y5kt-63mxx5g?e=YAaxVO</url>
+                <url>https://raw.githubusercontent.com/NikolaKoldzic/ecb_system_images/main/sdk-repo-linux-system-images-eng.kno1bg.zip</url>
             </complete>
         </archive>
     </archives>
