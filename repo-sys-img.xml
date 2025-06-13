@@ -5,7 +5,7 @@
     Your Bosch license text here...
 </license>
 
-<remotePackage path="system-images;android-34-ext9;bosch-android-automotive;x86_64">
+<remotePackage path="system-images;android-34;bosch-android-automotive;x86_64">
     <type-details xsi:type="sys-img:sysImgDetailsType">
         <api-level>34</api-level>
         <tag>
