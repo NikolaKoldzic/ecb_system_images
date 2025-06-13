@@ -1,52 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-<channel id="channel-0">stable</channel>
-
-<license id="custom-sdk-license" type="text">
-    Your license text here...
+<license id="bosch-sdk-license" type="text">
+    Your Bosch license text here...
 </license>
 
-<remotePackage path="system-images;android-34-ecb;android-automotive;x86_64">
+<remotePackage path="system-images;android-34;android-automotive;x86_64">
     <type-details xsi:type="sys-img:sysImgDetailsType">
         <api-level>34</api-level>
-        <extension-level>9</extension-level>
-        <base-extension>false</base-extension>
         <tag>
             <id>android-automotive</id>
             <display>ECB-aaos-image</display>
-        </tag>
-        <tag>
-            <id>bosch</id>
-   	        <display>Bosch</display>
         </tag>
         <vendor>
             <id>bosch</id>
             <display>Robert Bosch</display>
         </vendor>
         <abi>x86_64</abi>
-        <abis>x86_64</abis>
     </type-details>
     
     <revision>
         <major>1</major>
         <minor>0</minor>
+        <micro>0</micro>
     </revision>
     
     <display-name>Android Automotive with Bosch APIs x86_64 System Image</display-name>
-    <uses-license ref="custom-sdk-license"/>
-    
-    <channelRef ref="channel-0"/>
+    <uses-license ref="bosch-sdk-license"/>
     
     <archives>
         <archive>
             <complete>
                 <size>817455807</size>
-                <checksum type="sha1">aaee48ed364f67670148530f86fa6d2ffa25a3c6</checksum>
+                <checksum>aaee48ed364f67670148530f86fa6d2ffa25a3c6</checksum>
                 <url>https://bosch-my.sharepoint.com/personal/kno1bg_bosch_com/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fkno1bg%5Fbosch%5Fcom%2FDocuments%2Fsdk%2Drepo%2Dlinux%2Dsystem%2Dimages%2Deng%2Ekno1bg%2Ezip</url>
             </complete>
         </archive>
     </archives>
 </remotePackage>
 
-</sys-img:sdk-sys-img>properties
+</sys-img:sdk-sys-img>
