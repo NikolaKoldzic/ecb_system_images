@@ -34,4 +34,37 @@
     </archives>
 </remotePackage>
 
+
+
+<remotePackage path="system-images;android-34;bosch-android-automotive;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+        <api-level>34</api-level>
+        <tag>
+            <id>android-automotive</id>
+            <display>Android Automotive-ECB</display>
+        </tag>
+        <vendor>
+            <id>bosch</id>
+            <display>Robert Bosch</display>
+        </vendor>
+        <abi>arm64-v8a</abi>
+    </type-details>
+    <revision>
+        <major>1</major>
+        <minor>0</minor>
+        <micro>0</micro>
+    </revision>
+    <display-name>Android Automotive with Bosch APIs arm64-v8a System Image</display-name>
+    <uses-license ref="bosch-sdk-license"/>
+    <archives>
+        <archive>
+            <complete>
+                <size>819656593</size>
+                <checksum>f6bd31497e2a96db314e2aa23acb11332782684f</checksum>
+                <url><![CDATA[https://www.dropbox.com/scl/fi/pvwx4nmd1676x3mahxlos/sdk-repo-linux-system-images-eng-arm64.kno1bg.zip?rlkey=9d0bb5awxid9owp2fg4r3pdh3&e=1&st=jiawj4vm&dl=1]]></url>
+            </complete>
+        </archive>
+    </archives>
+</remotePackage>
+
 </sys-img:sdk-sys-img>
