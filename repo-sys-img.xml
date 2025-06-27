@@ -18,17 +18,17 @@
     </type-details>
     <revision>
         <major>2</major>
-        <minor>0</minor>
-        <micro>0</micro>
+        <minor>1</minor>
+        <micro>1</micro>
     </revision>
     <display-name>Ecb AAOS image with signed Roadpass placeholder</display-name>
     <uses-license ref="bosch-sdk-license"/>
     <archives>
         <archive>
             <complete>
-                <size>856388073</size>
-                <checksum>c4a6d9dd0e6418f62efd9e18d9a42258ef899001</checksum>
-                <url><![CDATA[https://www.dropbox.com/scl/fi/0fv9tgkis4ymf4p07paqa/sdk-repo-linux-system-images-eng.kno1bg-x86_64-roadpass.zip?rlkey=fbl6c7o78ihdfll6dx5r621fa&st=nwd5nb1a&dl=1]]></url>
+                <size>856388505</size>
+                <checksum>6b9264bb738e4317f1998c69bdac904a8b14de63</checksum>
+                <url><![CDATA[https://www.dropbox.com/scl/fi/9jcuvccul6yut3pigu5n1/sdk-repo-linux-system-images-eng.kno1bg-x86_64-roadpass.zip?rlkey=11zocjl78wjuqw2dhvf8bmzuh&st=k5etctna&dl=1]]></url>
             </complete>
         </archive>
     </archives>
