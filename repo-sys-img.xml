@@ -3,12 +3,12 @@
 
 <license id="bosch-sdk-license" type="text">Your Bosch license text here...</license>
 
-<remotePackage path="system-images;android-34;android-automotive;x86_64">
+<remotePackage path="system-images;android-34;bosch-android-automotive;x86_64">
     <type-details xsi:type="sys-img:sysImgDetailsType">
         <api-level>34</api-level>
         <tag>
             <id>android-automotive</id>
-            <display>Android Automotive-ECB</display>
+            <display>AAOS_Ecb_Roadpass</display>
         </tag>
         <vendor>
             <id>bosch</id>
@@ -17,18 +17,18 @@
         <abi>x86_64</abi>
     </type-details>
     <revision>
-        <major>1</major>
+        <major>2</major>
         <minor>0</minor>
         <micro>0</micro>
     </revision>
-    <display-name>Android Automotive with Bosch APIs x86_64 System Image</display-name>
+    <display-name>Ecb AAOS image with signed Roadpass placeholder</display-name>
     <uses-license ref="bosch-sdk-license"/>
     <archives>
         <archive>
             <complete>
-                <size>817455771</size>
-                <checksum>b6f5aa2b50d225e3216c3d870d4d365d7d0a04be</checksum>
-                <url><![CDATA[https://www.dropbox.com/scl/fi/1jzoq2oa4nr1l2sz142yk/sdk-repo-linux-system-images-eng.kno1bg.zip?rlkey=1fnoegsv8oy9udwykifoo1rfm&dl=1]]></url>
+                <size>856388073</size>
+                <checksum>c4a6d9dd0e6418f62efd9e18d9a42258ef899001</checksum>
+                <url><![CDATA[https://www.dropbox.com/scl/fi/0fv9tgkis4ymf4p07paqa/sdk-repo-linux-system-images-eng.kno1bg-x86_64-roadpass.zip?rlkey=fbl6c7o78ihdfll6dx5r621fa&st=nwd5nb1a&dl=1]]></url>
             </complete>
         </archive>
     </archives>
