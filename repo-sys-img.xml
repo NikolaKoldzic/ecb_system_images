@@ -41,7 +41,7 @@
         <api-level>34</api-level>
         <tag>
             <id>android-automotive</id>
-            <display>Android Automotive-ECB</display>
+            <display>AAOS_Ecb_Roadpass_ARM</display>
         </tag>
         <vendor>
             <id>bosch</id>
@@ -50,18 +50,18 @@
         <abi>arm64-v8a</abi>
     </type-details>
     <revision>
-        <major>1</major>
+        <major>2</major>
         <minor>0</minor>
         <micro>0</micro>
     </revision>
-    <display-name>Android Automotive with Bosch APIs arm64-v8a System Image</display-name>
+    <display-name>Ecb AAOS image with signed Roadpass placeholder</display-name>
     <uses-license ref="bosch-sdk-license"/>
     <archives>
         <archive>
             <complete>
-                <size>819656593</size>
-                <checksum>f6bd31497e2a96db314e2aa23acb11332782684f</checksum>
-                <url><![CDATA[https://www.dropbox.com/scl/fi/pvwx4nmd1676x3mahxlos/sdk-repo-linux-system-images-eng-arm64.kno1bg.zip?rlkey=9d0bb5awxid9owp2fg4r3pdh3&e=1&st=jiawj4vm&dl=1]]></url>
+                <size>840132113</size>
+                <checksum>6fcd12c31a736a57fbbfdf5bd573abb369e0b370</checksum>
+                <url><![CDATA[https://www.dropbox.com/scl/fi/u8wnu757q62b7stq3nft8/sdk-repo-linux-system-imagesbg-arm64-roadpass.zip?rlkey=jomca4sgwephdmb22tfivijwt&st=vk71ffae&dl=1]]></url>
             </complete>
         </archive>
     </archives>
