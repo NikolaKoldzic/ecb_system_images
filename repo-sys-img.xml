@@ -2,7 +2,8 @@
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 <license id="bosch-sdk-license" type="text">Your Bosch license text here...</license>
-
+    
+//x86_64 image
 <remotePackage path="system-images;android-34;bosch-android-automotive;x86_64">
     <type-details xsi:type="sys-img:sysImgDetailsType">
         <api-level>34</api-level>
@@ -28,14 +29,14 @@
             <complete>
                 <size>856388505</size>
                 <checksum>6b9264bb738e4317f1998c69bdac904a8b14de63</checksum>
-                <url><![CDATA[https://www.dropbox.com/scl/fi/9jcuvccul6yut3pigu5n1/sdk-repo-linux-system-images-eng.kno1bg-x86_64-roadpass.zip?rlkey=11zocjl78wjuqw2dhvf8bmzuh&st=k5etctna&dl=1]]></url>
+                <url><![CDATA[https://androidautomotivestorage.blob.core.windows.net/aaos-system-images/sdk-repo-linux-system-images-eng.kno1bg-x86_64-roadpass.zip]]></url>
             </complete>
         </archive>
     </archives>
 </remotePackage>
 
 
-
+//arm64 image
 <remotePackage path="system-images;android-34;bosch-android-automotive;arm64-v8a">
     <type-details xsi:type="sys-img:sysImgDetailsType">
         <api-level>34</api-level>
@@ -61,7 +62,7 @@
             <complete>
                 <size>840132113</size>
                 <checksum>6fcd12c31a736a57fbbfdf5bd573abb369e0b370</checksum>
-                <url><![CDATA[https://www.dropbox.com/scl/fi/u8wnu757q62b7stq3nft8/sdk-repo-linux-system-imagesbg-arm64-roadpass.zip?rlkey=jomca4sgwephdmb22tfivijwt&st=vk71ffae&dl=1]]></url>
+                <url><![CDATA[https://androidautomotivestorage.blob.core.windows.net/aaos-system-images/sdk-repo-linux-system-imagesbg-arm64-roadpass.zip]]></url>
             </complete>
         </archive>
     </archives>
